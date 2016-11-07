@@ -45,11 +45,29 @@ export default {
     }
   .timeago {
     font-size: 15px;
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-weight: 300;
   }
   img {
     width: 100% !important;
   }
   .tags {
     font-size: 14px;
+  }
+  .card-title {
+    font-family: 'Arvo';
+    font-size: 24px;
+    line-height: 34px !important;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+  }
+  .card-content {
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Arvo';
   }
 </style>

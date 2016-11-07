@@ -4,7 +4,7 @@
       <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo black-text">0e1dev</a>
         <ul class="right">
-          <li><a href="#" class="black-text"> <i class="material-icons left">home</i> Home</a></li>
+          <li><a href="#" class="black-text">Home</a></li>
         </ul>
       </div>
     </nav>
@@ -23,5 +23,13 @@ export default {
   .nav {
     background: rgba(255,255,255,0.7) !important;
     box-shadow: none !important;
+  }
+  .brand-logo {
+    font-family: 'Nova Mono', monospace;
+    font-size: 44px;
+  }
+  a {
+    font-family: 'Nova Mono', monospace;
+    font-size: 18px;
   }
 </style>

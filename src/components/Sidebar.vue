@@ -7,7 +7,7 @@
           <span class="card-title">@lhas</span>
         </div>
         <div class="card-content">
-          <p>Também sou conhecido por Luiz Almeida, tenho 21 anos, trabalho com desenvolvimento web há 6 anos. De estagiário a CTO.</p>
+          <p>Também sou conhecido por Luiz Almeida, tenho 21 anos, trabalho com desenvolvimento web há 6 anos. <br> De estagiário a CTO.</p>
 
           <br>
           <p>Trabalhei de agências digitais a fábricas de software multinacionais.</p>
@@ -19,10 +19,13 @@
           <p>As tecnologias que eu mais amo usar no back-end: <br> <strong>Ruby on Rails</strong>, <strong>Laravel</strong>, <strong>WordPress</strong>.</p>
 
           <br>
-          <p>Eu adoro mexer com <strong>DevOps</strong> também. Do <strong>Vagrant</strong> ao <strong>Docker</strong>. <br> Com <strong>Linux</strong>, é claro! :)</p>
+          <p>Eu adoro mexer com <strong>DevOps</strong> também. <br> Do <strong>Vagrant</strong> ao <strong>Docker</strong>.  Com <strong>Arch Linux</strong>, é claro! :)</p>
           
           <br>
-          <p>Sou entusiasta de boas práticas de código, libertarianismo, economia, e acredito que todo indivíduo deve aprender a programar. <br> <br> Acredito que o pensamento analítico de um programador auxilia na busca por soluções do dia-a-dia.</p>
+          <p>Sou entusiasta de boas práticas de código, libertarianismo, economia e tenho o dogma de que todo indivíduo deve aprender a programar. </p>
+          
+          <br> 
+          <p>Acredito que o pensamento analítico de um programador auxilia na busca por soluções do dia-a-dia.</p>
         
           <br>
 
@@ -80,14 +83,42 @@ export default {
 <style scoped>
   .sidebar {
     margin-top: 20px;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: .5px;
+    text-align: right;
+  }
+  .sidebar .card-content {
+    padding: 20px 0px;
+  }
+  .sidebar strong {
+    font-weight: 700;
   }
   .redes-sociais a {
+    width: 40px;
+    text-align: center;
     padding: 3px 10px;
+    line-height: 30px;
   }
-  .fade-enter-active, .fade-leave-active {
-    transition: opacity .5s
+  .redes-sociais {
+    padding-right: 0px !important;
   }
-  .fade-enter, .fade-leave-active {
-    opacity: 0
+  .redes-sociais a:last-child {
+    margin-right: 0px !important;
+  }
+  .redes-sociais a i {
+    font-size: 24px;
+  }
+  small {
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Work Sans', serif;
+  }
+  .card-title {
+    font-family: 'Arvo', monospace;
+    font-size: 50px;
+    font-weight: 700;
+    right: 0px;
   }
 </style>
