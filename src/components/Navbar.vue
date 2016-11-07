@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
   .nav {
-    background: rgba(255,255,255,0.5);
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.1) !important;
+    background: rgba(255,255,255,0.7) !important;
+    box-shadow: none !important;
   }
 </style>

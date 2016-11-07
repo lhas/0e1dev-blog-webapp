@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "animate.css": "^3.5.2",
     "materialize-css": "^0.97.8",
     "vue": "^2.0.1"
   },

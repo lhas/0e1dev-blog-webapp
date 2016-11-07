@@ -1,9 +1,9 @@
 <template>
-  <div class="row row-recent-posts">
+  <div class="row row-recent-posts animated zoomIn">
 
     <div class="col s12">
 
-      <div class="card grey lighten-5">
+      <div class="card z-depth-0 lighten-5">
         <a href="#" class="grey-text text-darken-2">
 
           <img src="https://templateflip.com/wp-content/uploads/2015/05/blog-home-template-min1-600x273.jpg" alt="">
@@ -17,7 +17,7 @@ Graças a internet, empresas que no passado dependiam do mercado local para ofer
         </a>
 
         <div class="card-content tags">
-          <p><a href="#" class="btn-flat"><i class="material-icons left">turned_in_not</i> Ruby</a></p>
+          <p><a href="#" class="btn-flat"><i class="material-icons left">star</i> Ruby</a></p>
         </div>
       </div> <!-- .card -->
 
@@ -38,12 +38,11 @@ export default {
   .row-recent-posts {
     margin-top: 20px;
     margin-bottom: 20px;
-
+  }
     .card {
+      background: transparent !important;
       margin-bottom: 20px;
     }
-
-  }
   .timeago {
     font-size: 15px;
   }

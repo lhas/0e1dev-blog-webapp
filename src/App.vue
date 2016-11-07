@@ -10,7 +10,7 @@
           <recent-posts></recent-posts>
         </div> <!-- .col -->
 
-        <div class="col s12 m5 l3 offset-l1">
+        <div class="col s12 m5 l4">
           <sidebar></sidebar>
         </div> <!-- .col -->
 
@@ -23,6 +23,7 @@
 
 <script>
 import 'materialize-css/bin/materialize.css'
+import 'animate.css'
 import Navbar from './components/Navbar'
 import RecentPosts from './components/RecentPosts'
 import Sidebar from './components/Sidebar'
