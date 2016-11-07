@@ -1,28 +1,41 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
-  </div>
+    <navbar></navbar>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col s12 m7 l8">
+          <recent-posts></recent-posts>
+        </div> <!-- .col -->
+
+        <div class="col s12 m5 l3 offset-l1">
+          <sidebar></sidebar>
+        </div> <!-- .col -->
+
+      </div> <!-- row -->
+
+    </div> <!-- .container -->
+
+  </div> <!-- #app -->
 </template>
 
 <script>
-import Hello from './components/Hello'
+import 'materialize-css/bin/materialize.css'
+import Navbar from './components/Navbar'
+import RecentPosts from './components/RecentPosts'
+import Sidebar from './components/Sidebar'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    Navbar,
+    RecentPosts,
+    Sidebar
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
